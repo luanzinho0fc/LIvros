@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Livros sobre Matemática e Natureza</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Logo centralizada no topo */
+    .logo-container {
+      text-align: center;
+      padding: 30px 10px 10px;
+    }
+
+    .logo-container img {
+      height: 100px;
+      max-width: 90%;
+    }
+
+    /* Seção principal */
+    main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2.section-title {
+      font-size: 26px;
+      color: #546c4a;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    /* Cartões de livros */
+    .book-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .book-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+
+    .book-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .book-info {
+      padding: 15px;
+    }
+
+    .book-info h3 {
+      font-size: 18px;
+      margin: 0 0 10px;
+      color: #546c4a;
+    }
+
+    .book-info p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .book-info a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #546c4a;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .book-info a:hover {
+      background-color: #3e5035;
+    }
+
+    @media (max-width: 600px) {
+      .book-card img {
+        height: 200px;
+      }
+
+      .logo-container img {
+        height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <img src="https://raw.githubusercontent.com/luanzinho0fc/feira-de-ciencias/refs/heads/main/LogoMakerCa-1745319933968.png" alt="Logo da Feira de Ciências" />
+  </div>
+
+  <main>
+    <h2 class="section-title">Livros que você pode comprar</h2>
+    <div class="book-grid">
+
+      <!-- Livro 1 -->
+      <div class="book-card">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/41J2X8JZ6RL._SX331_BO1,204,203,200_.jpg" alt="Matemática e Natureza" />
+        <div class="book-info">
+          <h3>Matemática e Natureza</h3>
+          <p><strong>Autor:</strong> Michel Janos</p>
+          <p><strong>Editora:</strong> LF Editorial (2023)</p>
+          <a href="https://www.amazon.com.br/Matem%C3%A1tica-Natureza-Michel-Janos/dp/8578610385" target="_blank">Ver na Amazon</a>
+        </div>
+      </div>
+
+      <!-- Livro 2 -->
+      <div class="book-card">
+        <img src="https://m.media-amazon.com/images/I/51nC4vRh3zL.jpg" alt="Mathematics in Nature" />
+        <div class="book-info">
+          <h3>Mathematics in Nature</h3>
+          <p><strong>Autor:</strong> John A. Adam</p>
+          <p><strong>Editora:</strong> Princeton University Press (2006)</p>
+          <a href="https://www.amazon.com.br/Mathematics-Nature-Modeling-Patterns-Natural/dp/0691127964" target="_blank">Ver na Amazon</a>
+        </div>
+      </div>
+
+      <!-- Livro 3 -->
+      <div class="book-card">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51F3F3F3F3L._SX331_BO1,204,203,200_.jpg" alt="Nature's Patterns" />
+        <div class="book-info">
+          <h3>Nature's Patterns</h3>
+          <p><strong>Autor:</strong> Philip Ball</p>
+          <p><strong>Editora:</strong> Oxford University Press (2009)</p>
+          <a href="https://www.amazon.com/Natures-Patterns-Tapestry-Three-Parts/dp/0199604878" target="_blank">Ver na Amazon</a>
+        </div>
+      </div>
+
+      <!-- Livro 4 -->
+      <div class="book-card">
+        <img src="https://m.media-amazon.com/images/I/61bYeZw1ZXL.jpg" alt="Gödel, Escher, Bach" />
+        <div class="book-info">
+          <h3>Gödel, Escher, Bach</h3>
+          <p><strong>Autor:</strong> Douglas Hofstadter</p>
+          <p><strong>Editora:</strong> Basic Books (1979)</p>
+          <a href="https://pt.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach" target="_blank">Ver detalhes</a>
+        </div>
+      </div>
+
+      <!-- Livro 5 -->
+      <div class="book-card">
+        <img src="https://www.ofitexto.com.br/media/catalog/product/cache/bd1f48f43a104b09d22239542f4a07df/9/7/9788579750144.jpg" alt="Modelagem Matemática Ambiental" />
+        <div class="book-info">
+          <h3>Modelagem Matemática Ambiental</h3>
+          <p><strong>Autores:</strong> Fabio Chalub e Paulo Rigazzi</p>
+          <p><strong>Editora:</strong> Oficina de Textos (2012)</p>
+          <a href="https://www.ofitexto.com.br/modelagem-matematica-ambiental/p" target="_blank">Ver na Editora</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>
